@@ -1,5 +1,4 @@
-# FPM10A
-Arduino FPM10A fingerprint sensor
+### 转载请注明出处
 
 ## 使用的Libraey
 <a href="https://github.com/adafruit/Adafruit-Fingerprint-Sensor-Library">Adafruit Fingerprint Sensor Library</a>
@@ -118,4 +117,4 @@ Arduino FPM10A fingerprint sensor
   -> `timeout` how many milliseconds we're willing to wait<br>
   -> returns `FINGERPRINT_OK` on success<br>
   -> returns `FINGERPRINT_TIMEOUT` or `FINGERPRINT_BADPACKET` on failure<br>
-  `uint8_t Adafruit_Fingerprint::getStructuredPacket(Adafruit_Fingerprint_Packet * packet, uint16_t timeout)`
+  `uint8_t Adafruit_Fingerprint::getStructuredPacket(Adafruit_Fingerprint_Packet * packet, uint16_t timeout)`<br>
